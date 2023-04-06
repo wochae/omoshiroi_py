@@ -1,3 +1,4 @@
+import math
 import random
 
 import numpy as np
@@ -127,7 +128,7 @@ DISTANCE = calculate_distances(temp)
 population = []
 i = 0
 # 초기 염색체를 생성하여 객체 집단에 추가한다.
-while i < POPULATION_SIZE:
+while i < 1000:
     population.append(Chromosome())
     i += 1
 count = 0
